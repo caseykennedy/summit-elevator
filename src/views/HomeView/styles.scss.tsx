@@ -15,7 +15,7 @@ export const HomeView = styled.main`
   flex-flow: column nowrap;
   justify-content: space-between;
   padding: var(--gutter);
-  height: 100vh;
+  height: 100%;
   width: 100%;
 
   .logo {
@@ -24,6 +24,7 @@ export const HomeView = styled.main`
 
   .soon {
     display: flex;
+    margin: var(--space-xxxl) 0;
   }
 
   .contact {

@@ -10,7 +10,7 @@ type Props = { fill?: string }
 
 const Symbol = ({ fill }: Props) => (
   <SVG
-    width="300"
+    width="200"
     viewBox="0 0 201 75"
     initial="hidden"
     animate="visible"
