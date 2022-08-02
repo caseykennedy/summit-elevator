@@ -13,21 +13,30 @@ const sectionHeight = 'calc(100vh - calc(var(--gutter) * 2))'
 export const HomeView = styled.main`
   display: flex;
   flex-flow: column nowrap;
-  justify-content: space-between;
-  padding: var(--gutter);
+  justify-content: center;
   height: 100%;
   width: 100%;
 
+  @media ${breakpoint.tablet} {
+    flex-flow: row nowrap;
+  }
+
+  & > * {
+    flex: 1;
+    padding: var(--gutter);
+  }
+
   .logo {
-    margin-bottom: var(--space-xxxl);
-  }
-
-  .soon {
     display: flex;
-    margin: var(--space-xxxl) 0;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-text);
   }
 
-  .contact {
+  .billboard {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
     font-size: var(--text-lg);
   }
 `

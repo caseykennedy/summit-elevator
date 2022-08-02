@@ -20,11 +20,17 @@ const GlobalStyles = createGlobalStyle`
 
   html,
   body {
-    background: var(--color-bg);
+    height: 100%;
   }
 
   body {
+    background: var(--color-bg);
     overscroll-behavior-y: none;
+  }
+
+  #___gatsby,
+  #gatsby-focus-wrapper {
+    height: 100%;
   }
 
   .scroll-container {

@@ -10,7 +10,7 @@ type Props = { fill?: string }
 
 const Symbol = ({ fill }: Props) => (
   <SVG
-    width="200"
+    width="250"
     viewBox="0 0 201 75"
     initial="hidden"
     animate="visible"
@@ -82,7 +82,7 @@ const Symbol = ({ fill }: Props) => (
 export default Symbol
 
 const defaultProps = {
-  fill: 'var(--color-text)',
+  fill: 'var(--color-bg)',
 }
 
 Symbol.defaultProps = defaultProps
