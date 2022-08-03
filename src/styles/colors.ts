@@ -14,7 +14,7 @@ const Colors = css`
     --color-gray: gray;
 
     --color-primary: #203451;
-    --color-secondary: #CCC5B3;
+    --color-secondary: #AF1F1F;
 
     // background
     --color-bg: #203451;
